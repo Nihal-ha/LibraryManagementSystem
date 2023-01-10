@@ -1,0 +1,53 @@
+body{
+    padding: 0px;
+    margin: 0px;
+}
+.hooklist{
+    text-align: center;
+    color: aliceblue;
+    /* display: inline-block; */
+}
+  /* .book_section :hover{
+    
+    transform: scale(1.1);
+    transition: .5s;
+} */
+ /* .n {
+    display: inline-block;
+    
+ }  */
+
+.book{
+    margin: 10px 10px;
+    color: black;
+    display: inline;
+background-color: aliceblue;
+margin-right: 100px;
+text-align: center;
+border-radius: 20px;
+ display:flex; 
+justify-content: center;
+/* align-items: center; */
+height: 350px;
+width: 1400px;
+padding:  30px;
+}
+.book img{
+    display: flex;
+    justify-content: left;
+padding: 20px 20px;
+margin-right: 450px;
+}
+
+
+.book h1,h4,h6{
+    /* margin-bottom: 550px; */
+    margin-right:500px ;
+
+} 
+/* .b1{
+    margin-right: 800px;
+} */
+  .b2 button{
+    margin-right: 500px;
+  }

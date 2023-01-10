@@ -1,0 +1,52 @@
+body{
+    margin: 0;
+    padding: 0px;
+}
+.form{
+   
+
+    /* background: url(https://img.freepik.com/free-photo/top-view-books-with-copy-space_23-2148827187.jpg?w=1060&t=st=1672954347~exp=1672954947~hmac=22fc13248c2757a8c43028778bddd7a3ade3cc495fe59c7fbd6f016acbb60d24); */
+   background-size: cover;
+    margin: 30px auto;
+    height: 400px;
+    width: 700px;
+    align-items: center;
+    border-radius: 20px;
+    box-shadow: 10px 10px 8px rgb(0, 0, 0);
+    margin-top: 150px;
+}
+.form h1{
+   color: rgb(6, 2, 38); 
+font-weight: bolder;
+}
+.form_input{
+    text-align: center;
+}
+
+.form_input a{
+    color: rgb(0, 0, 0);
+}
+.email{
+    color: rgb(0, 0, 0);
+}
+.password{
+    color: rgb(0, 0, 0);
+}
+
+    
+.form_input input{
+border: none;
+height: 30px;
+width: 250px;
+margin: 10px;
+border-radius: 15px;
+outline: none;
+text-align: center;
+}
+.form_input button{
+    border: none;
+    background-color: rgb(244, 248, 247);
+    color: rgb(12, 13, 14);
+padding: 8px 20px;
+border-radius: 10px;    
+}

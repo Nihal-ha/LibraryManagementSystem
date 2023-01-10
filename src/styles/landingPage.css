@@ -1,0 +1,114 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    background-image: url(https://img.freepik.com/premium-photo/blurred-bookshelf-many-old-books-book-shop-library_36051-477.jpg?w=1060);
+    background-size: cover;
+    
+    
+
+}
+.landingpage{
+    
+    display: grid;
+    justify-content: center;
+    color: rgb(246, 248, 250);
+  
+}
+
+   
+
+
+
+.selectLoginType a{
+    color: rgb(243, 243, 243);
+   font-size: larger;
+    font: bolder;
+    
+
+}
+.txt  {
+    
+    text-align: center;
+
+}
+
+.back{
+     display: flex;
+    justify-content: space-evenly; 
+    text-align: center; 
+    /* background-image: url(https://img.freepik.com/free-psd/abstract-background-with-opened-book_23-2149085907.jpg?w=1060&t=st=1672951889~exp=1672952489~hmac=5cb5e1d2080ffb3a70f76cef014b0bfdfd9233b644d1450539dd53fea50909de); */
+    background-size: cover;
+    height: 500px;
+    width: 700px;
+      background-color: rgb(169, 180, 189);  
+    margin-top: 150px;
+    margin-bottom: 300px;
+    border-radius: 20px;
+    box-shadow: 10px 15px 8px black;
+    
+   
+}
+.back h1{
+    color: rgb(2, 29, 53);
+    text-align: center;
+    font-weight: bolder;
+    border-radius: none;
+    
+}
+.full{
+    margin-top: 100px;
+    display: flex;
+    margin-left: 250px;
+    
+    
+}
+.full one{
+    margin-right: 950px;
+}
+
+.one a {
+   
+   margin-right: 250px;
+    border-radius: 80px;
+    font: bolder;
+    border: none;
+    text-decoration: none;
+
+
+} 
+.one img{
+    border-radius: 80px;
+    margin-bottom: 50px;
+    margin-right: 250px;
+}
+.one button{
+    border: none;
+    background-color: rgb(2, 29, 53);
+    color: aliceblue;
+padding: 8px 20px;
+border-radius: 10px;  
+width: 90px;  
+margin-right: 240px;
+}
+.two button{
+    border: none;
+    background-color: rgb(2, 29, 53);
+    color: rgb(244, 246, 247);
+padding: 8px 20px;
+border-radius: 10px;  
+width: 90px;  
+margin-right: 250px;
+
+}
+.two a{
+    
+    margin-right: 250px;
+     border-radius: 80px;
+     text-decoration: none;
+
+}
+.two img{
+    border-radius: 80px;
+    margin-bottom: 50px;
+    margin-right: 250px;
+}

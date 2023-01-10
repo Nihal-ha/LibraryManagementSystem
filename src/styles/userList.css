@@ -1,0 +1,20 @@
+body{
+    margin: 0px;
+    padding: 0px;
+}
+.userlist{
+    text-align: center;
+    color: aliceblue;
+}
+.usermap{
+    display: inline-table;
+    height: 350px;
+    width: 350px;
+    margin: 20px;
+    background-color: aliceblue;
+    border-radius: 20px;
+    text-align: center;
+    box-shadow: 0px ,0px,18px black;
+    color: black;
+    padding: 20px 30px;
+}
