@@ -1,8 +1,9 @@
 body{
     margin: 0px;
     padding: 0px;
-    background-image: url(https://img.freepik.com/premium-photo/blurred-bookshelf-many-old-books-book-shop-library_36051-477.jpg?w=1060);
+    background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(https://cdnuploads.aa.com.tr/uploads/Contents/2020/02/19/thumbs_b_c_5b0f5fae30f09e6fb515cd287f8449f3.jpg?v=122557);
     background-size: cover;
+   
     
     
 
@@ -38,13 +39,13 @@ body{
     text-align: center; 
     /* background-image: url(https://img.freepik.com/free-psd/abstract-background-with-opened-book_23-2149085907.jpg?w=1060&t=st=1672951889~exp=1672952489~hmac=5cb5e1d2080ffb3a70f76cef014b0bfdfd9233b644d1450539dd53fea50909de); */
     background-size: cover;
-    height: 500px;
+    height: 450px;
     width: 700px;
       background-color: rgb(169, 180, 189);  
     margin-top: 150px;
-    margin-bottom: 300px;
+    /* margin-bottom: 300px; */
     border-radius: 20px;
-    box-shadow: 10px 15px 8px black;
+    box-shadow: 10px 15px 8px rgb(10, 10, 10);
     
    
 }

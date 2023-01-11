@@ -1,11 +1,12 @@
 body{
     padding: 0px;
     margin: 0px;
+    color: whitesmoke;
 }
 .hooklist{
     text-align: center;
     color: aliceblue;
-    /* display: inline-block; */
+    display: inline-block;
 }
   /* .book_section :hover{
     
@@ -18,36 +19,44 @@ body{
  }  */
 
 .book{
-    margin: 10px 10px;
+    margin: 20px 30px;
     color: black;
     display: inline;
 background-color: aliceblue;
-margin-right: 100px;
-text-align: center;
+/* margin-left: 100px; */
+text-align: start;
 border-radius: 20px;
  display:flex; 
 justify-content: center;
-/* align-items: center; */
-height: 350px;
+align-items: center;
+height: 220px;
 width: 1400px;
-padding:  30px;
+padding: 30px 30px;
+box-shadow: 0px 0px 18px rgb(104, 109, 209);
 }
 .book img{
     display: flex;
     justify-content: left;
-padding: 20px 20px;
+padding: 10px 20px;
 margin-right: 450px;
 }
 
 
 .book h1,h4,h6{
     /* margin-bottom: 550px; */
-    margin-right:500px ;
+    /* margin-right:1000px ; */
 
 } 
 /* .b1{
     margin-right: 800px;
 } */
   .b2 button{
+    text-align: center;
     margin-right: 500px;
+    display: inline;
+    justify-content: center;
+    border-radius: 5px;
+    color: rgb(0, 0, 0);
+    
   }
+  

@@ -1,0 +1,41 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    color: rgb(255, 255, 255);
+}
+
+.addbook{
+    display: grid;
+    height: auto;
+    text-align: center;
+}
+.AddForm input{
+    height: 25px;
+    width: 350px;
+    border-radius: 10px;
+    margin: 10px;
+    outline: none;
+    text-decoration: none;
+    box-shadow: 0px 0px 18px black;
+    text-align: center;
+    
+}
+.AddForm textarea{
+    height: 65px;
+    width: 350px;
+    border-radius: 10px;
+    margin: 10px;
+    outline: none;
+    text-decoration: none;
+    box-shadow: 0px 0px 18px black;
+    text-align: center;
+}
+.AddForm button{
+    height: 35px;
+    width: 350px;
+    border-radius: 10px;
+    margin: 10px;
+    outline: none;
+    text-decoration: none;
+    box-shadow: 0px 0px 18px black;
+}

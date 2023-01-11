@@ -35,7 +35,7 @@ const AdminLogin = () => {
                             <input type="password" value={password} required onChange={(e)=>setpassword(e.target.value)} placeholder="enter password" className="password" />
                         </div>
                         <br /><br />
-                        <button className="btn btn-primary">Login</button>
+                        <button >Login</button>
                      
                     </form>
                   

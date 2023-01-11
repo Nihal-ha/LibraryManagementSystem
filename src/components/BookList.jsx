@@ -1,9 +1,12 @@
 import '../styles/BookList.css'
 
 import { useState,useEffect } from "react";
-import { useNavigate } from 'react-router-dom';
+import { useNavigate,useLocation } from 'react-router-dom';
 const BookList = () => {
     let[book,setbook]=useState([])
+
+    //to fetch the route value
+    let location =useLocation()
     useEffect(()=>{
         let fetchdata=async ()=>{
             let response=await fetch(`http://localhost:1252/books`)
@@ -21,10 +24,13 @@ const BookList = () => {
     }
     let navigate =useNavigate()
     let readmore  = (id) => {
+        if(location.pathname == '/admin/Book-list'){
        navigate(`/admin/book-list/${id}`)
+    }else{
+navigate(`/user/Book-list/${id}`)
     }
     
-   
+}
     
     
     return ( <div className="hooklist">
@@ -42,8 +48,10 @@ const BookList = () => {
 <h1>Title:{data.title}</h1>
     <h4>Authors:{data.authors.toString()}</h4>
     <h6>Page Count:{data.pageCount}</h6>
+    
     <button onClick={()=>readmore(data.id)}>Read Mode</button>
-    <button onClick={()=>handledelete(data.id,data.title)}>Delete</button>
+   
+{location.pathname=='/admin/Book-list' &&  <button onClick={()=>handledelete(data.id,data.title)}>Delete</button>}
    
    
     </div>

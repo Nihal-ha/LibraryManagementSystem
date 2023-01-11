@@ -1,5 +1,6 @@
 import { useState } from "react";
 import { useNavigate } from "react-router-dom";
+import '../styles/addbook.css'
 const AddBook = () => {
 let[title,setTitle]=useState("")
 let[authors,setAuthor]=useState("")
@@ -41,15 +42,15 @@ navigate('/admin/book-list')
                     <input value={pageCount} onChange={(e)=>setPageCount(e.target.value)} type="text" placeholder="PageCount" />
                 </div>
                 <div className="shortdescription">
-                    <textarea value={shortDescription} onChange={(e)=>setShortDescription(e.target.value)} name="" id="" cols="30" rows="10" placeholder="ShortDescription"></textarea>
+                    <textarea value={shortDescription} onChange={(e)=>setShortDescription(e.target.value)} name="" id="" cols="50" rows="10" placeholder="ShortDescription"></textarea>
 
                 </div>
                 <div className="longdescription">
-                    <textarea value={longDescription} onChange={(e)=>setlong(e.target.value)} name="" id="" cols="30" rows="10" placeholder="LongDescription"></textarea>
+                    <textarea value={longDescription} onChange={(e)=>setlong(e.target.value)} name="" id="" cols="50" rows="10" placeholder="LongDescription"></textarea>
 
                 </div>
                 <div className="thumbnailURL">
-                    <input value={thumbnailUrl} onChange={(e)=>seturl(e.target.value)} type="type" />
+                    <input value={thumbnailUrl} onChange={(e)=>seturl(e.target.value)} type="text" placeholder="image" />
                 </div>
                 <button className="biikbtn">Add Book</button>
 

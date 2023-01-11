@@ -1,20 +1,23 @@
 body{
-    margin: 0;
+    margin: 0px;
     padding: 0px
 }
+
 .form{
    
 
     /* background: url(https://img.freepik.com/premium-photo/opened-book-bible-background_112554-164.jpg?w=996); */
-   background-size: cover;
-    margin: 30px auto;
+   /* background-size: cover; */
+    /* margin: 30px 30px; */
     height: 400px;
     width: 700px;
     align-items: center;
     border-radius: 20px;
     box-shadow: 0px 0px 15px rgb(0, 0, 0);
-    margin-top: 150px;
+    margin-top: 500px;
     background-color: rgb(172, 201, 227);
+    /* margin-bottom: 50px; */
+    margin-top: 200px;
 }
 .form h1{
    color: rgb(253, 251, 251); 
@@ -22,33 +25,41 @@ font-weight: bolder;
 text-align: center;
 }
 .form_input{
-    text-align: center;
+    text-align: start;
+    margin-right: 250px;
 }
 
 .form_input a{
     color: aliceblue;
+    
 }
 .email{
     color: rgb(14, 6, 76);
+    font-weight: bolder;
+    
 }
 .password{
     color: rgb(17, 4, 88);
+    font-weight: bolder;
 }
 
     
 .form_input input{
 border: none;
-height: 30px;
-width: 250px;
-margin: 10px;
+height: 0px;
+width: 0px;
+margin-bottom: 50px;
 border-radius: 15px;
 outline: none;
-text-align: center;
+text-align: start;
+margin-left: 500px;
 }
 .form_input button{
     border: none;
     background-color: rgb(244, 248, 247);
     color: rgb(0, 0, 0);
 padding: 8px 20px;
-border-radius: 10px;    
+border-radius: 10px;  
+margin-left: 300px;  
+/* margin-top: 50px; */
 }

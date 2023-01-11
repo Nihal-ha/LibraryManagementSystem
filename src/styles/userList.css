@@ -2,12 +2,13 @@ body{
     margin: 0px;
     padding: 0px;
 }
-.userlist{
+.userlist {
     text-align: center;
     color: aliceblue;
 }
 .usermap{
     display: inline-table;
+    
     height: 350px;
     width: 350px;
     margin: 20px;
